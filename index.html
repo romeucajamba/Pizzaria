@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images (24).jpeg" type="image/x-icon">
+    <title>Reservar</title>
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Aproveita o maximo que puder!!<br></h1>
+            <img src="images (24).jpeg" alt="Reserva">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>Reservar</h1>
+                <div class="textfield">
+                    <label for="usuario">Primeiro e ultimo nome</label>
+                    <input type="name" name="fullname" placeholder="nome e apelido do cliente" id="nome">
+                </div>
+                <div class="textfield">
+                    <label for="usuario">Quantidade de pessoas</label>
+                    <input type="number" name="number" placeholder="numero de pessoas" id="numero">
+                </div>
+                <button type="submit" class="btn-login" id="reserva" onclick="reservar()">Reservar</button>
+            </div>
+        </div>
+    </div>
+    <script src="reserva.js"></script>
+</body>
+</html>
